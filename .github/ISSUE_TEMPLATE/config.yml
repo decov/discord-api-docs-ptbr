@@ -1,0 +1,20 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Solicitações de Recursos de API, comando de aplicativo e componente de mensagem
+    url: https://github.com/discord/discord-api-docs/discussions
+    about: Sugestões para comportamento novo ou diferente na API do Discord, Gateway, OAuth2, SDK, Comandos de Aplicativo, Componentes de Mensagem, etc.
+  - name: Documentação do Desenvolvedor
+    url: https://discord.com/developers/docs
+    about: Precisa de documentação e exemplos para a API? Vá até a documentação do desenvolvedor do Discord.
+  - name: Servidor Discord Developers
+    url: https://discord.gg/discord-developers
+    about: Precisa de ajuda com a API? Fale conosco no servidor de desenvolvedores do Discord.
+  - name: Comentários do Discord e Solicitações de Recursos
+    url: https://feedback.discord.com
+    about: Tem comentários que não estão relacionados à API? Acesse o site de comentários do Discord.
+  - name: Reportar Bugs do Discord
+    url: https://dis.gd/bugreport
+    about: Tem bugs que não estão relacionados à API? Envie um ticket para a equipe de suporte do Discord.
+  - name: Suporte do Discord
+    url: https://dis.gd/contact
+    about: Precisa de algo mais? Envie um ticket para a equipe de suporte do Discord.
