@@ -1,3 +1,9 @@
+<div align="center">
+  <p>
+    <a href="https://github.com/decov/discord-api-docs-ptbr"><img src="https://apps.uk/wp-content/uploads/2022/04/developer-mode.jpg" width="" alt="Discord"></a>
+  </p>
+</div>
+
 # Documentação Oficial da API do Discord
 
 Esse repositório contém a documentação oficial da API do Discord, que pode ser visto online [AQUI](https://discord.com/developers/docs/intro). Antes de enviar pull-requests, por favor, lembre-se de ler _inteiramente_ as diretrizes de [Contribuição](CONTRIBUTING.md).
