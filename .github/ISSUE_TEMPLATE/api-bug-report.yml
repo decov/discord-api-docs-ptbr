@@ -1,0 +1,49 @@
+name: Reportar Bug da API
+description: Um bug foi encontrado na API do Discord, Gateway, OAuth2, SDK, etc.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Antes de abrir um novo problema, pesquise os problemas existentes: https://github.com/discord/discord-api-docs/issues"
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: Forneça uma descrição clara e concisa de qual é o problema.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para Reproduzir
+      description: Inclua solicitações cURL específicas que podemos copiar e colar para replicar seu problema. Forneça etapas específicas, claras e concisas para que possamos reproduzir esse problema de maneira confiável.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento Esperado
+      description: Qual é o comportamento que você espera que ocorra que não é?
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Comportamento Atual
+      description: Qual é o comportamento que você está vendo atualmente?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Vídeos
+      description: Forneça uma captura de tela e/ou vídeo demonstrando o problema que está ocorrendo.
+    validations:
+      required: false
+  - type: textarea
+    id: information
+    attributes:
+      label: Informação do Client e do Sistema
+      description: Qual é o navegador/biblioteca/cliente que você está usando? Qual sistema operacional e versão?
+    validations:
+      required: true
