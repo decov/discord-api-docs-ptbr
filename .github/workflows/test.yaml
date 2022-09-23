@@ -1,0 +1,48 @@
+name: Verificar Links
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repositório de Checkout
+        uses: actions/checkout@v3
+
+      - name: Instalar Node v16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: npm
+
+      - name: Instalar Dependências
+        run: npm ci
+
+      - name: Rodar ESLint
+        run: npm run lint
+
+  links:
+    name: Checar Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repositório de Checkout
+        uses: actions/checkout@v3
+
+      - name: Instalar Node v16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: npm
+
+      - name: Instalar Dependências
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Rodar Checks de Links
+        run: npm run test:links
